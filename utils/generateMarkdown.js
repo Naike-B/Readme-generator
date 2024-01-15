@@ -4,16 +4,16 @@ function generateMarkdown(data) {
   let licenseBadge = '';
   switch (data.license) {
     case 'MIT':
-      licenseBadge = '![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+      licenseBadge = '![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)';
       break;
     case 'Apache 2.0':
-      licenseBadge = '![Apache 2.0 License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+      licenseBadge = '![Apache 2.0 License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)';
       break;
     case 'GPL v3.0':
-      licenseBadge = '![GPL v3.0 License](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+      licenseBadge = '![GPL v3.0 License](https://img.shields.io/badge/License-GPLv3-blue.svg)';
       break;
     case 'BSD 3':
-      licenseBadge = '![BSD 3 License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
+      licenseBadge = '![BSD 3 License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)';
       break;
     default:
       licenseBadge = '';
