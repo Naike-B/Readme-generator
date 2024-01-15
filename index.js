@@ -1,5 +1,4 @@
 const fs = require("fs");
-const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
@@ -14,11 +13,6 @@ const questions = [
         type: 'input',
         message: 'Please add a description of your project here:',
         name: 'description',
-    },
-    {
-        type: 'input',
-        message: 'Please add your Table of contents here:',
-        name: 'tableOfContents',
     },
     {
         type: 'input',
@@ -38,7 +32,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please add the contributors to the project here:',
+        message: 'Please add guidelines on how to contribute to your project here:',
         name: 'contributing',
     },
     {

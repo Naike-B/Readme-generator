@@ -1,5 +1,5 @@
 // function to generate markdown for README
-// uses a switch statement to assign a different value to the licenseBadge variable depending on the user's selected license
+// uses a switch statement to assign a different value to the licenseBadge variable depending on the license selected by the user
 function generateMarkdown(data) {
   let licenseBadge = '';
   switch (data.license) {
@@ -16,18 +16,25 @@ function generateMarkdown(data) {
       licenseBadge = '![BSD 3 License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
       break;
     default:
-      licenseBadge = 'No license';
+      licenseBadge = '';
   }
-// constructs the file content using the user's input data
+
+  // constructs the file content using the user's input data
   return `
 # ${data.title}
-${licenseBadge}
 
 ## Description
+${licenseBadge}
+
 ${data.description}
 
 ## Table of Contents
-${data.tableOfContents}
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 ${data.installation}
@@ -45,7 +52,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-Created by [${data.gitHubUsername}](${data.profileURL})\n\nEmail: ${data.email}\n\nFor any questions, please reach out via email.
+Created by [${data.gitHubUsername}](${data.profileURL})\n\nEmail: ${data.email}\n\n For any questions, please reach out via email.
 `;
 }
 
