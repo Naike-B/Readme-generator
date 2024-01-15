@@ -1,10 +1,10 @@
 
-# Sample
+# Readme-generator
 
 ## Description
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-Test description here
+This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. It allows the user to quickly create a professional README for a new project.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,19 +15,19 @@ Test description here
 - [Questions](#questions)
 
 ## Installation
-Installation steps test
+
 
 ## Usage
-Usage steps test
+The application can be invoked by using the following command: node index.js, from the root directory of the project
 
 ## License
 This project is covered under the MIT license.
 
 ## Contributing
-Test contribution guidelines here
+
 
 ## Tests
-Tests
+
 
 ## Questions
 Created by [Naike-B](https://github.com/Naike-B)
