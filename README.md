@@ -1,8 +1,7 @@
 # Readme-generator
-
-## Description
 ![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+## Description
 This is a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. It allows the user to quickly create a professional README for a new project.
 
 ## Table of Contents
