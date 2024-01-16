@@ -13,10 +13,10 @@ This is a command-line application that dynamically generates a professional REA
 - [Questions](#questions)
 
 ## Installation
-Clone the repository to your local machine using the command: git clone [Readme-generator](https://github.com/Naike-B/Readme-generator) 
-⬇️ 
-Navigate to the cloned directory using the command: cd Readme-generator
-⬇️
+Clone the repository to your local machine using the command: git clone [Readme-generator](https://github.com/Naike-B/Readme-generator)  
+⬇️  
+Navigate to the cloned directory using the command: cd Readme-generator  
+⬇️  
 Install the dependencies by running npm install
 
 ## Usage
