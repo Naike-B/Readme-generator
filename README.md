@@ -23,6 +23,7 @@ Install the dependencies by running npm install
 ## Usage
 After installing the dependencies, you can invoke the application by using the command: node index.js in the terminal. This will start the application and you can interact with it through the console.
 
+Click on [this link](), to watch walkthrough video demonstrating the functionality of the application.
 
 ## License
 This project is covered under the MIT license.
@@ -32,9 +33,3 @@ This project is covered under the MIT license.
 I'm very grateful to my instructor, teaching assistant, and study group for their constant support throughout my web development learning journey, enabling me to successfully complete this project.  🚀
 
 
-## Questions
-Created by [Naike-B](https://github.com/Naike-B)
-
-Email: nbi.study2@gmail.com 
-
-For any questions, please reach out via email.
