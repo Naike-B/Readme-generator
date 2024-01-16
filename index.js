@@ -6,7 +6,7 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: 'input',
-        message: 'What is the title of your README file?',
+        message: 'What is the title of your project?',
         name: 'title',
     },
     {
@@ -16,12 +16,12 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+        message: 'What are the steps required to install your project?',
         name: 'installation',
     },
     {
         type: 'input',
-        message: 'Provide instructions and examples for use.',
+        message: 'Please provide instructions and examples for use here:',
         name: 'usage',
     },
     {

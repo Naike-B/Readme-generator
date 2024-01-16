@@ -14,18 +14,22 @@ This is a command-line application that dynamically generates a professional REA
 - [Questions](#questions)
 
 ## Installation
-
+Clone the repository to your local machine using the command: git clone [Readme-generator](https://github.com/Naike-B/Readme-generator) 
+⬇️ 
+Navigate to the cloned directory using the command: cd Readme-generator
+⬇️
+Install the dependencies by running npm install
 
 ## Usage
-The application can be invoked by using the following command: node index.js, from the root directory of the project
+After installing the dependencies, you can invoke the application by using the command: node index.js in the terminal. This will start the application and you can interact with it through the console.
+
 
 ## License
 This project is covered under the MIT license.
 
-## Contributing
+## Credits
 
-
-## Tests
+I'm very grateful to my instructor, teaching assistant, and study group for their constant support throughout my web development learning journey, enabling me to successfully complete this project.  🚀
 
 
 ## Questions
@@ -33,4 +37,4 @@ Created by [Naike-B](https://github.com/Naike-B)
 
 Email: nbi.study2@gmail.com 
 
- For any questions, please reach out via email.
+For any questions, please reach out via email.
