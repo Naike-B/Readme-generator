@@ -22,10 +22,9 @@ function generateMarkdown(data) {
   // constructs the file content using the user's input data
   return `
 # ${data.title}
-
-## Description
 ${licenseBadge}
 
+## Description
 ${data.description}
 
 ## Table of Contents
