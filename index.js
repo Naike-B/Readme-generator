@@ -1,3 +1,7 @@
+// Importing libraries for the application
+// fs module for file system operations
+// inquirer for interactive command line user interfaces
+// generateMarkdown utility for generating markdown files
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
@@ -67,7 +71,9 @@ function writeToFile(fileName, data) {
 }
 
 
-// function to initialize program by prompting the user for input, generating the README file, and creating a new file on the user's computer, filling it with the generated README content
+/* function to initialise program by prompting the user for input, generating the README file, 
+and creating a new file on the user's computer, filling it with the generated README content
+*/
 function init() {
     inquirer.prompt(questions).then((answers) => {
         const readmeFile = generateMarkdown(answers);
@@ -75,5 +81,5 @@ function init() {
     });
 }
 
-// function call to initialize program
+// function call to initialise program
 init();

@@ -51,7 +51,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-Created by [${data.gitHubUsername}](${data.profileURL})\n\nEmail: ${data.email}\n\n For any questions, please reach out via email.
+Created by [${data.gitHubUsername}](${data.profileURL})\n\nEmail: ${data.email}\n\nFor any questions, please reach out via email.
 `;
 }
 
