@@ -11,7 +11,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please add a description of your project here:',
+        message: 'Add a description of your project here:',
         name: 'description',
     },
     {
@@ -21,7 +21,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please provide instructions and examples for use here:',
+        message: 'Provide instructions and examples for use here:',
         name: 'usage',
     },
     {
@@ -32,7 +32,7 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please add guidelines on how to contribute to your project here:',
+        message: 'Add guidelines on how to contribute to your project here:',
         name: 'contributing',
     },
     {
