@@ -8,9 +8,7 @@ This is a command-line application that dynamically generates a professional REA
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
+- [Credits](#credits)
 
 ## Installation
 Clone the repository to your local machine using the command: git clone [Readme-generator](https://github.com/Naike-B/Readme-generator)  
